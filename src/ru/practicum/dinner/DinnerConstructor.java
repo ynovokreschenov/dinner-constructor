@@ -34,7 +34,7 @@ public class DinnerConstructor {
         return randomSet;
     }
 
-    public boolean hasTypeOfDish(String nextItem) {
+    public boolean checkType(String nextItem) {
         return dinnerConstructor.containsKey(nextItem);
     }
 }

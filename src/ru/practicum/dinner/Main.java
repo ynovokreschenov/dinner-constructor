@@ -59,7 +59,7 @@ public class Main {
         //реализуйте ввод типов блюд
         ArrayList<String> dishTypes = new ArrayList<>();
         while (!nextItem.isEmpty()) {
-            if (dc.hasTypeOfDish(nextItem)) {
+            if (dc.checkType(nextItem)) {
                 dishTypes.add(nextItem);
             } else {
                 System.out.println("Введет несуществующий тип блюда");
